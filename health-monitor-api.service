@@ -11,7 +11,7 @@ After=network.target
 Type=simple
 User=root
 Group=root
-WorkingDirectory=/root
+WorkingDirectory=/root/flask
 ExecStart=/root/flask/run.sh
 Restart=always
 Environment=USER=root HOME=/root
